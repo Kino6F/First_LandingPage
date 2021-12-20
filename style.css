@@ -1,0 +1,19 @@
+body{
+    font-family: sans-serif;
+}
+.header{
+    background-color: #1f2937;
+}
+.header div.header-logo{
+    color: #f9faf8;
+}
+.header ul{
+    color: #e5e7eb;
+}
+.header div.hero-main{
+    color: #f9faf8;
+    font-weight: bold;
+}
+.header div.hero-second {
+    color: #e5e7eb;
+}
