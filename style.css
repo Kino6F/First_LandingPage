@@ -91,6 +91,12 @@ span.hero-second {
 }
 
 /* RECTANGLE 1 */
+.content1{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .content1 p{
     text-align: center;
     font-weight: 800;
@@ -122,8 +128,53 @@ span.hero-second {
 /* RECTANGLE 2 */
 .content2{
     background-color: #e5e7eb;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.quote-content{
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+}
+.quote{
+    font-weight: 0;
+    font-style: italic;
+    font-size: 36px;
+}
+.quote-author{
+    text-align: right;
+    font-weight: bold;
 }
 /* RECTANGLE 3 */
+.content3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.blue-rectangle{
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 40px 120px ;
+    border-radius: 10px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+span.blue-bold-text{
+    font-weight: bold;
+}
+.blue-rectangle button{
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: #f9faf8;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
 
 /* FOOTER */
 #footer{
