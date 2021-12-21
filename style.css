@@ -1,19 +1,92 @@
 body{
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
 }
+a{
+    text-decoration: none;
+}
+a:link {
+    color: #e5e7eb;
+}
+a:visited {
+    color: #e5e7eb;
+}
+a:hover {
+    color: #e5e7eb;
+}
+a:active {
+    color: #e5e7eb;
+}
+
+/* HEADER */
 .header{
     background-color: #1f2937;
 }
+.header div.content-header{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* MENU */
+.header div.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 .header div.header-logo{
     color: #f9faf8;
-}
-.header ul{
-    color: #e5e7eb;
-}
-.header div.hero-main{
-    color: #f9faf8;
+    font-size: 24px;
     font-weight: bold;
 }
-.header div.hero-second {
+.header ul.menu-links{
     color: #e5e7eb;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    gap: 16px;
+}
+.header ul.menu-links li{
+    display: list-item;
+}
+
+/* HERO */
+.header div.hero{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+/* HERO Left */
+.header div.hero-left{
+    flex: 1;
+}
+span.hero-main{
+    color: #f9faf8;
+    font-weight: 800;
+    font-size: 48px;
+}
+span.hero-second {
+    color: #e5e7eb;
+}
+.header button{
+    padding: 10px 30px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    border: none;
+}
+
+/* HERO Right - IMG */
+.header div.hero-right{
+    flex: 1;
+}
+.header div.hero-right img{
+    height: 300px;
+    width: 700px;
+    object-fit: cover;
+
 }
